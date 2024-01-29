@@ -1,0 +1,467 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: orange;
+}
+
+
+.iconHouse {
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+
+.headlineAndIcon {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+
+.headerIcon {
+   width: 900px;
+   object-fit: cover;
+    
+}
+
+
+.foodOrder:hover {
+   cursor: pointer; 
+   border: 1px solid transparent;
+   
+}
+
+
+.orderAndPic {
+    display: flex;
+    height: 300px;
+    object-fit: contain;
+
+
+}
+
+
+.burgerIcon {
+    height: 30px;
+    width: 30px;
+    padding-right: 30px;
+}
+
+
+.star {
+    height: 20px;
+    width: 20px;
+}
+
+
+.starsAndTitle {
+    padding-left: 30px;
+}
+
+
+.colorEvalation {
+    color: red;
+    
+}
+
+
+.positionHeartAndEvalation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.heart {
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    padding: 10px;   
+}
+
+
+.positionHeart {
+    padding-left: 30px;
+}
+
+
+.logo {
+    height: 20px;
+    width: 20px;
+}
+
+
+.borderLogo {
+    border-radius: 50px;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 325px;
+    right: 850px;
+    background-color: white;
+}
+
+
+.textBurger {
+    font-family: 'MuseoModerno', cursive;
+}
+
+
+.background {
+    background-color: grey;
+}
+
+
+.searchIcon {
+    height: 20px;
+    width: 20px;
+    padding-left: 30px;
+
+}
+
+
+.food {
+    color: orange;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+
+.positionBar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(240, 227, 227);
+    width: 900%;
+    justify-content: space-between;
+    
+}
+
+
+.positionBar a:hover {
+    color: black;
+}
+
+
+.overview {
+    display: flex;
+}
+
+
+.plusIcon {
+    height: 20px;
+    width: 20px;
+}
+
+
+.menuBox {
+    padding-left: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 866px;
+    background-color: rgb(253, 249, 249);
+}
+
+
+.orderAndMenuPosition {
+    display: flex;
+}
+
+
+.order {
+    background-color: rgb(253, 249, 249);
+    height: 100vh;
+    width: 500px;
+
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.buyIcon {
+    height: 50px;
+    width: 50px;
+    padding-left: 40px;
+}
+
+
+.or {
+    flex-direction: column;  
+}
+
+
+.trashIcon {
+    height: 12px;
+    width: 12px;
+    padding-left: 20px;
+}
+
+
+.foodDiv {
+    width: 170px;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+
+.foodAndPrice {
+    display: flex;
+    align-items: center;
+}
+
+
+.distance {
+    padding-left: 25px;
+}
+
+
+.orderButton {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: orange;
+    font-family: 'MuseoModerno', cursive;
+}
+
+
+.orderButton:hover {
+    color: rgb(253, 249, 249);
+    border-style: solid;
+}
+
+
+.foter {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-container {
+    color: black;
+}
+
+
+.socialmedia {
+    padding-right: 30px;
+}
+
+
+.agb {
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+
+.copyright {
+    padding-left: 30px;
+}
+
+
+.headlineAndIconFoter {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-left: 30px;
+}
+
+
+.socialmediaIcon {
+    width: 50px;
+    height: 50px;
+}
+
+
+.fonts {
+    font-family: 'MuseoModerno', cursive;
+}
+
+
+.orderTitle {
+   
+    font-family: 'MuseoModerno', cursive;
+}
+
+
+.price {
+    padding-left: 20px;
+    font-family: 'MuseoModerno', cursive;
+}
+
+.deliveryFoter {
+    margin: 0;
+    font-family: 'MuseoModerno', cursive;
+}
+
+
+@media(max-width: 900px){
+    .orderAndMenuPosition {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 600px;
+        
+    }
+
+
+    .foter {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+    }
+
+
+    .heart {
+        display: none;
+    }
+
+
+    .positionBar {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+    }
+
+
+    .menuBox {
+        width: 555px;
+    }
+
+
+    .order {
+        height: 500px;
+        width: 600px;
+    }
+
+
+    .searchIcon {
+        display: none;
+    }
+
+
+    .burgerIcon {
+        display: none;
+    }
+
+
+    .positionHeartAndEvalation {
+        width: 600px;
+    }
+
+
+    .headerIcon {
+        width: 600px;
+    }
+
+
+    .positionHeartAndEvalation {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .starsAndFeedback {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .stars {
+        padding-left: 45px;
+    }
+
+
+    .colorEvalation {
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+
+
+    .adress {
+        padding-left: 30px;
+        padding-bottom: 10px;
+    }
+
+
+    .headlineAndIconFoter {
+        padding-top: 20px;
+    }
+
+
+    .socialmediaIcon {
+        height: 30px;
+        width: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+    .foodAndPrice {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+
+    .socialmedia {
+        padding-left: 40px;
+    }
+
+
+    .or {
+        padding-bottom: 40px;
+    }
+
+
+    .distanceButton {
+        padding-bottom: 50px;
+    }
+
+
+    .price {
+        padding-right: 20px;
+    }
+
+
+    .headerIcon {
+        width: 600px;
+    }
+
+
+
+
+
+
+
+
+
+
+    
+
+}

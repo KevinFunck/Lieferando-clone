@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/head" href="img/header.png">
+    <title>Delivery</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
+</head>
+
+<body onload="render()">
+
+    <div class="header">
+        <div class="headlineAndIcon"><img class="iconHouse" src="img/house.png">
+            <h1 class="fonts">Delivery.de</h1>
+        </div>
+        <u>
+            <h2 class="adress">Lilienstraße 3 Leipzig</h2>
+        </u>
+        <img class="burgerIcon" src="img/burger.png">
+    </div>
+    <div class="orderAndMenuPosition">
+        <div>
+            <div class="orderAndPic">
+                <img class="headerIcon" src="img/header.jpg">
+                <div></div>
+            </div>
+
+            <div class="positionHeartAndEvalation">
+                <div class="starsAndTitle">
+                    <b>
+                        <H2 class="fonts">Burger Restaurant</H2>
+                    </b>
+                    <div class="starsAndFeedback">
+                        <div class="stars">
+                            <img class="star" src="img/starcolor.png">
+                            <img class="star" src="img/starcolor.png">
+                            <img class="star" src="img/starcolor.png">
+                            <img class="star" src="img/starcolor.png">
+                        </div>
+                        <b class="colorEvalation">(100 Bewertungen)</b>
+                    </div>
+                </div>
+                <img class="heart" src="img/heart.png">
+            </div>
+         
+            
+            <div class="positionFoodContainer" id="foodContainer"></div>
+        </div>
+        <div class="order">
+            <div class="or">
+                <h2 class="orderTitle">Bestellungen</h2>
+                <div id="order">
+                    <img class="buyIcon" src="img/buy.png">
+                    <p class="fonts">Fülle den Warenkorb</p>
+
+                </div>
+                <div id="totalpriceContainer"></div>
+                <div class="distanceButton">
+                    <b onlick="orderConclude()" class="orderButton">Bestellen</b>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="foter">
+        <div>
+            <div class="headlineAndIconFoter"><img class="iconHouse" src="img/house.png">
+                <h1 class="deliveryFoter">Delivery.de</h1>
+            </div>
+
+            <p class="copyright">© Copyright 2023 Delivery.de</p>
+
+            <div class="agb">
+                <a href="#">AGB</a> |
+                <a href="#">Datenschutz</a> |
+                <a href="#">Impressum</a>
+            </div>
+        </div>
+        <div class="socialmedia">
+            <img class="socialmediaIcon" src="img/instagram.png">
+            <img class="socialmediaIcon" src="img/facebook.png">
+            <img class="socialmediaIcon" src="img/twitter.png">
+        </div>
+    </div>
+
+</body>
+
+</html>
